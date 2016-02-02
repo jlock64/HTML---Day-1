@@ -1,0 +1,109 @@
+* {
+  font-family: helvetica;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+header {
+  width: 100%;
+  background-color: #c5e5f5;
+  box-shadow: 3px 3px 15px #888888;
+}
+
+/*#content {
+  width: 1100px;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  display: inline-block;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #135897;
+  padding-left: 27px;
+}
+
+.navBar {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  margin-left: 190px;
+}
+
+#mainNav {
+  display: inline-block;
+}
+#mainNav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#mainNav li a {
+  display: block;
+  padding: 10px;
+  color: #135897;
+}
+#mainNav li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  color: #135897;
+  text-transform: uppercase;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+h1 a:hover {
+  box-shadow: none;
+}
+
+
+#mainPic {
+  margin-top:25px;
+  margin-left: 15%;
+  width: 70%;
+  box-shadow: 5px 5px 25px #333;
+  border-radius: 10px;
+}
+
+
+/******** Satellite Page **********/
+#satellitePic {
+  margin-top:25px;
+  margin-left: 15%;
+  width: 70%;
+  box-shadow: 5px 5px 25px #333;
+  border-radius: 10px;
+}
+
+/******** About Page **********/
+#bioPic {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 40%;
+  border-radius: 100%;
+}
+
+h3 {
+  display: inline-block;
+  text-align: center;
+  color: #135897;
+}
+
+/******** Radar Page **********/
+#radarPic {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 15%;
+    box-shadow: 5px 5px 25px #333;
+    border-radius: 10px;
+}
